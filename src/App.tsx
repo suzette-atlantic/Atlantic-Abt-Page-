@@ -97,7 +97,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-x-hidden">
             <div className="space-y-6 overflow-x-hidden">
               <div className="overflow-x-hidden pb-1">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap" style={{ fontSize: 'clamp(2.25rem, 7.5vw, 4rem)' }}>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
                   MEET ATLANTIC TRAINING
                 </h1>
               </div>
