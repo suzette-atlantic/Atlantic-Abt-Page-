@@ -121,14 +121,20 @@ function App() {
             <div className="relative rounded-2xl overflow-hidden shadow-2xl group cursor-pointer">
               <div className="aspect-video bg-black rounded-2xl overflow-hidden border-4 border-white/30 shadow-2xl">
                 <div className="relative w-full h-full bg-black">
+                  {!videoPlaying && (
+                    <img 
+                      src="/Video-Thumbnail.png" 
+                      alt="Video Thumbnail" 
+                      className="w-full h-full object-cover"
+                    />
+                  )}
                   <video
                     ref={videoRef}
                     className="w-full h-full object-cover"
                     src="/Why%20Atlantic%20(Shorten)%20.mp4"
-                    poster="/Video-Thumbnail.png"
                     preload="metadata"
                     playsInline
-                    {...(videoPlaying ? { controls: true, autoPlay: true } : {})}
+                    {...(videoPlaying ? { controls: true, autoPlay: true } : { style: { display: 'none' } })}
                   >
                     Your browser does not support the video tag.
                   </video>
