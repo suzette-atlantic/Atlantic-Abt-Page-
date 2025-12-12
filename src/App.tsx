@@ -97,7 +97,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-visible">
             <div className="space-y-6 overflow-visible">
               <div className="overflow-visible pb-1" style={{ maxWidth: '100%' }}>
-                <h1 className="font-extrabold leading-[1.15] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap" style={{ fontSize: 'clamp(2.25rem, 4vw, 3rem)', maxWidth: '100%', overflow: 'visible', textAlign: 'left' }}>
+                <h1 className="font-extrabold leading-none bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent" style={{ fontSize: 'clamp(2rem, 3.2vw, 2.75rem)', lineHeight: '1', maxWidth: '100%', whiteSpace: 'normal', textWrap: 'balance', overflow: 'visible', textAlign: 'left' }}>
                   MEET ATLANTIC TRAINING
                 </h1>
               </div>
