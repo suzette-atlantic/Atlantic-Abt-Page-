@@ -227,7 +227,7 @@ function App() {
             <h2 className="text-5xl font-extrabold mb-4 bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
               OUR HISTORY
             </h2>
-            <p className="text-xl font-extrabold bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
+            <p className="text-2xl font-extrabold bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
               From Ripples...To Waves... A Name With Meaning. Going Global
             </p>
           </div>
