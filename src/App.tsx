@@ -228,7 +228,7 @@ function App() {
               OUR HISTORY
             </h2>
             <p className="text-xl font-extrabold bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
-              FROM RIPPLES...TO WAVES... A NAME WITH MEANING. GOING GLOBAL
+              From Ripples...To Waves... A Name With Meaning. Going Global
             </p>
           </div>
 
