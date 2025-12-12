@@ -125,6 +125,7 @@ function App() {
                     ref={videoRef}
                     className="w-full h-full object-cover"
                     src="/Why%20Atlantic%20(Shorten)%20.mp4"
+                    poster="/Video-Thumbnail.png"
                     preload="metadata"
                     playsInline
                     {...(videoPlaying ? { controls: true, autoPlay: true } : {})}
