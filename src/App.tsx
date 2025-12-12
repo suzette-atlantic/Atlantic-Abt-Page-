@@ -89,15 +89,15 @@ function App() {
         </div>
       </nav>
 
-      <section id="hero" className="relative overflow-visible" style={{ backgroundImage: 'url(/background-1.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
-        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#3AC4DE]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4 -z-10 pointer-events-none" />
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#374A9E]/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4 -z-10 pointer-events-none" />
+      <section id="hero" className="relative overflow-x-hidden" style={{ backgroundImage: 'url(/background-1.png)', backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat' }}>
+        <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#3AC4DE]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4 -z-10 pointer-events-none overflow-hidden" />
+        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#374A9E]/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4 -z-10 pointer-events-none overflow-hidden" />
 
         <div className="max-w-7xl mx-auto px-6 pt-24 pb-20 relative z-10 overflow-visible">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-visible">
             <div className="space-y-6 overflow-visible">
               <div className="overflow-visible pb-1">
-                <h1 className="text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
                   Meet Atlantic Training
                 </h1>
               </div>
