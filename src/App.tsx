@@ -119,7 +119,7 @@ function App() {
             </div>
 
             <div className="relative rounded-2xl overflow-hidden shadow-2xl group cursor-pointer">
-              <div className="aspect-video bg-black rounded-2xl overflow-hidden border-t-4 border-transparent bg-gradient-to-r from-[#374A9E] to-[#3AC4DE]">
+              <div className="aspect-video bg-black rounded-2xl overflow-hidden border-4 border-white/30 shadow-2xl">
                 <div className="relative w-full h-full bg-black">
                   <video
                     ref={videoRef}
@@ -346,8 +346,8 @@ function App() {
           <div className="space-y-16">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6 slide-in-left">
-                <p className="text-lg text-gray-800 leading-relaxed">
-                  At Atlantic Training, we're not just another e-learning platform—we're your partners in building safer, smarter workplaces. With expert-led training, practical wizardry, and a whole lot of heart, we help organizations prevent accidents, manage risk, and ensure compliance without the usual corporate snooze-fest.
+                <p className="text-lg text-gray-800 leading-relaxed pb-2">
+                  At Atlantic Training, we're not just another e-learning platform, we're your partners in building safer, smarter workplaces. With expert-led training, practical wizardry, and a whole lot of heart, we help organizations prevent accidents, manage risk, and ensure compliance without the usual corporate snooze-fest.
                 </p>
                 <p className="text-lg text-gray-800 leading-relaxed">
                   What sets us apart? We're transparent, we're human (yes, quirky humanity included), and we're genuinely here to help. No tech jargon, no hidden fees, just friendly support when you need it.
@@ -369,8 +369,8 @@ function App() {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="slide-in-left lg:order-2">
                 <div className="space-y-6">
-                  <p className="text-lg text-gray-800 leading-relaxed">
-                    Atlantic Training is about making workplaces brighter and safer. We see employee development, safety, and compliance not as burdens, but as opportunities—for teams to thrive, for mistakes to be laughed off (then fixed), and for everyone to go home healthier and happier.
+                  <p className="text-lg text-gray-800 leading-relaxed pb-2">
+                    Atlantic Training is about making workplaces brighter and safer. We see employee development, safety, and compliance not as burdens, but as opportunities, for teams to thrive, for mistakes to be laughed off (then fixed), and for everyone to go home healthier and happier.
                   </p>
                   <p className="text-lg text-gray-800 leading-relaxed">
                     We're proud to help our customers and their employees tackle real-world challenges with confidence, compassion, and a little quirky insight.
@@ -408,7 +408,7 @@ function App() {
               </span>
             </h2>
             <p className="text-xl lg:text-2xl font-bold text-white max-w-3xl mx-auto leading-relaxed">
-              We believe we're the top choice for safety and compliance, but don't just take our word for it — check out our Google reviews!
+              We believe we're the top choice for safety and compliance, but don't just take our word for it, check out our Google reviews!
             </p>
           </div>
 
