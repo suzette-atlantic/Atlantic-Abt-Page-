@@ -97,8 +97,8 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-x-hidden">
             <div className="space-y-6 overflow-x-hidden">
               <div className="overflow-x-hidden pb-1">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
-                  Meet Atlantic Training
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
+                  MEET ATLANTIC TRAINING
                 </h1>
               </div>
               <p className="text-lg text-white font-bold leading-relaxed">
@@ -279,7 +279,7 @@ function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16 fade-in">
             <h2 className="text-5xl font-extrabold mb-4 bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
-              Values
+              VALUES
             </h2>
             <p className="text-2xl font-extrabold bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent mb-6">
               No fluff here. We love to have fun, but we take our business serious.
@@ -347,7 +347,7 @@ function App() {
       <section id="regulations" className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-6">
           <h2 className="text-5xl font-extrabold text-center mb-16 bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent fade-in">
-            Company Regulations
+            COMPANY REGULATIONS
           </h2>
 
           <div className="space-y-16">
@@ -408,10 +408,10 @@ function App() {
           <div className="text-center mb-12 fade-in">
             <h2 className="text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
               <span className="block bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
-                5-star reviews for our top-notch
+                5-STAR REVIEWS FOR OUR TOP-NOTCH
               </span>
               <span className="block bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
-                training standards, loved by all.
+                TRAINING STANDARDS, LOVED BY ALL.
               </span>
             </h2>
             <p className="text-xl lg:text-2xl font-bold text-white max-w-3xl mx-auto leading-relaxed">
