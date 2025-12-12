@@ -43,7 +43,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white overflow-visible">
+    <div className="min-h-screen bg-white overflow-x-hidden">
       {bannerVisible && (
         <div className="bg-gradient-to-r from-[#3AC4DE] to-[#374A9E] text-white text-center py-3 px-4 relative">
           <p className="text-sm md:text-base font-medium">
