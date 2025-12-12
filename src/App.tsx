@@ -97,7 +97,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-x-hidden">
             <div className="space-y-6 overflow-x-hidden">
               <div className="overflow-x-hidden pb-1">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
                   MEET ATLANTIC TRAINING
                 </h1>
               </div>
@@ -406,7 +406,7 @@ function App() {
 
         <div className="max-w-6xl mx-auto px-6 relative z-10">
           <div className="text-center mb-12 fade-in">
-            <h2 className="text-5xl lg:text-6xl font-extrabold mb-6 leading-tight">
+            <h2 className="text-3xl lg:text-4xl font-extrabold mb-6 leading-tight">
               <span className="block bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
                 5-STAR REVIEWS FOR OUR TOP-NOTCH
               </span>
