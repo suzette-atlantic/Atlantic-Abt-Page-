@@ -96,8 +96,8 @@ function App() {
         <div className="max-w-7xl mx-auto px-6 pt-24 pb-20 relative z-10 overflow-x-hidden">
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-x-hidden">
             <div className="space-y-6 overflow-x-hidden">
-              <div className="overflow-x-hidden pb-1">
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
+              <div className="overflow-visible pb-1" style={{ maxWidth: '100%' }}>
+                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.3] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent" style={{ maxWidth: '100%', overflow: 'visible', textAlign: 'left' }}>
                   MEET ATLANTIC TRAINING
                 </h1>
               </div>
