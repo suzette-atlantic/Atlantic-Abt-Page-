@@ -58,9 +58,9 @@ function App() {
         </div>
       )}
 
-      <nav className="sticky top-0 z-50 bg-black text-white shadow-lg">
-        <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
+      <nav className="sticky top-0 z-50 bg-black text-white shadow-lg overflow-x-hidden">
+        <div className="max-w-7xl mx-auto px-6 py-4 overflow-x-hidden">
+          <div className="flex items-center justify-between overflow-x-hidden">
             <div className="flex items-center gap-3">
               <img src="/AT_Logo.png" alt="Atlantic Training" className="h-8 w-auto" />
             </div>
@@ -97,7 +97,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-x-hidden">
             <div className="space-y-6 overflow-x-hidden">
               <div className="overflow-x-hidden pb-1">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
                   Meet Atlantic Training
                 </h1>
               </div>
