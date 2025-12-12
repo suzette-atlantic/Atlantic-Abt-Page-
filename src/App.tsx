@@ -93,11 +93,11 @@ function App() {
         <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#3AC4DE]/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/4 -z-10 pointer-events-none overflow-hidden" />
         <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[#374A9E]/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/4 -z-10 pointer-events-none overflow-hidden" />
 
-        <div className="max-w-7xl mx-auto px-6 pt-24 pb-20 relative z-10 overflow-x-hidden">
-          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-x-hidden">
-            <div className="space-y-6 overflow-x-hidden">
+        <div className="max-w-7xl mx-auto px-6 pt-24 pb-20 relative z-10 overflow-visible">
+          <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-visible">
+            <div className="space-y-6 overflow-visible">
               <div className="overflow-visible pb-1" style={{ maxWidth: '100%' }}>
-                <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-[1.3] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent" style={{ maxWidth: '100%', overflow: 'visible', textAlign: 'left' }}>
+                <h1 className="font-extrabold leading-[1.2] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap" style={{ fontSize: 'clamp(2.5rem, 5vw, 3.5rem)', maxWidth: '100%', overflow: 'visible', textAlign: 'left' }}>
                   MEET ATLANTIC TRAINING
                 </h1>
               </div>
