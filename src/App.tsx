@@ -97,7 +97,7 @@ function App() {
           <div className="grid lg:grid-cols-2 gap-12 items-center mb-20 overflow-x-hidden">
             <div className="space-y-6 overflow-x-hidden">
               <div className="overflow-x-hidden pb-1">
-                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
+                <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-[1.5] bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent whitespace-nowrap">
                   Meet Atlantic Training
                 </h1>
               </div>
@@ -198,7 +198,7 @@ function App() {
                 { title: 'OUR STORY', text: "Atlantic Training has been showing up for businesses for more than 20 years, long before \"online training\" was a buzzword and back when our name was simply Compliance and Safety (straightforward, right?). Since those early days in 2005, we've grown into a friendly go-to resource for EHS and HR training, supporting everyone from small teams to Fortune 500 giants who prefer their compliance training delivered with a bit more humanity and a lot less yawning." },
               ].map((item, idx) => (
                 <div key={idx} className="space-y-4">
-                  <h3 className="text-2xl font-extrabold bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent border-l-4 border-[#374A9E] pl-6">
+                  <h3 className="text-2xl font-extrabold bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
                     {item.title}
                   </h3>
                   <p className="text-lg text-gray-800 leading-relaxed">{item.text}</p>
