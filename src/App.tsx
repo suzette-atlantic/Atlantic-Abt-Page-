@@ -119,7 +119,7 @@ function App() {
             </div>
 
             <div className="relative rounded-2xl overflow-hidden shadow-2xl group cursor-pointer">
-              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] p-1">
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                 <div className="relative w-full h-full bg-black rounded-xl overflow-hidden">
                   {!videoPlaying && (
                     <img 
@@ -167,10 +167,6 @@ function App() {
                           }}
                         />
                       </button>
-                      {/* Enhanced text with better contrast and prominence */}
-                      <p className="text-white font-bold text-lg md:text-xl drop-shadow-2xl bg-black/30 px-4 py-2 rounded-lg backdrop-blur-sm border border-white/20 group-hover:bg-black/40 transition-all duration-300">
-                        Watch Course Preview
-                      </p>
                     </div>
                   )}
                 </div>
