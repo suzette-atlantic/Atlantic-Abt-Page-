@@ -99,7 +99,7 @@ function App() {
               <div className="overflow-visible pb-1" style={{ maxWidth: '100%' }}>
                 <h1 className="font-extrabold leading-none bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent" style={{ fontSize: 'clamp(2rem, 3.2vw, 2.75rem)', lineHeight: '1', maxWidth: '100%', whiteSpace: 'normal', textWrap: 'balance', overflow: 'visible', textAlign: 'left' }}>
                   MEET ATLANTIC TRAINING
-                </h1>
+              </h1>
               </div>
               <p className="text-lg text-white font-bold leading-relaxed">
                 Over 20 Years of Excellence in Workplace Safety, Compliance, and Employee Training Solutions.
@@ -157,8 +157,15 @@ function App() {
                         <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-300 -z-10"></div>
                         {/* Brand-aligned outline ring */}
                         <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-[#3AC4DE]/60 transition-all duration-300 -m-1"></div>
-                        {/* Play icon */}
-                        <div className="w-0 h-0 border-l-[24px] md:border-l-[28px] border-l-[#374A9E] border-t-[14px] md:border-t-[16px] border-t-transparent border-b-[14px] md:border-b-[16px] border-b-transparent ml-1 transition-transform duration-300 group-hover:scale-110" />
+                        {/* Play icon with gradient */}
+                        <div 
+                          className="ml-1 transition-transform duration-300 group-hover:scale-110 md:w-7 md:h-7 w-6 h-6"
+                          style={{
+                            background: 'linear-gradient(to right, #374A9E, #3AC4DE)',
+                            clipPath: 'polygon(0 0, 0 100%, 100% 50%)',
+                            WebkitClipPath: 'polygon(0 0, 0 100%, 100% 50%)'
+                          }}
+                        />
                       </button>
                       {/* Enhanced text with better contrast and prominence */}
                       <p className="text-white font-bold text-lg md:text-xl drop-shadow-2xl bg-black/30 px-4 py-2 rounded-lg backdrop-blur-sm border border-white/20 group-hover:bg-black/40 transition-all duration-300">
@@ -277,7 +284,7 @@ function App() {
 
                   <div className="timeline-year-badge hidden lg:flex w-24 h-24 rounded-full bg-white font-extrabold text-xl items-center justify-center shadow-2xl hover:scale-110 transition-transform flex-shrink-0 scale-in">
                     <span className="bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
-                      {item.year}
+                    {item.year}
                     </span>
                   </div>
 
@@ -312,7 +319,7 @@ function App() {
                 { title: 'Customer Driven', desc: "Customers are always our highest priority. Atlantic Training's business model is geared towards solving customer challenges to ensure their teams are safe, have a healthy working environment, and are compliant with current regulations.", icon: '/icons/1.png' },
                 { title: 'Agile', desc: "Businesses are evolving. Companies now require employee training that extends far beyond traditional safety and compliance. We are a modern brand that stays current with ALL requirements for a safe and happy workplace.", icon: '/icons/9.png' },
                 { title: 'Transparent', desc: 'At the end of the day, trust, integrity, honesty and dependability are all characteristics that everyone needs in a successful business relationship. These traits must be earned and we believe that our transparency plays a major role.', icon: '/icons/23.png' },
-              ].map((value, idx) => (
+            ].map((value, idx) => (
                 <div key={idx} className="flex flex-col items-center text-center">
                   <div className="w-[120px] h-[120px] rounded-full bg-gradient-to-br from-[#374A9E]/10 to-[#3AC4DE]/10 flex items-center justify-center mb-6">
                     <img 
@@ -344,15 +351,15 @@ function App() {
                       alt={value.title}
                       className="w-16 h-16 object-contain"
                     />
-                  </div>
-                  <h3 className="text-2xl font-extrabold mb-4 bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
-                    {value.title}
-                  </h3>
+                </div>
+                <h3 className="text-2xl font-extrabold mb-4 bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] bg-clip-text text-transparent">
+                  {value.title}
+                </h3>
                   <p className="text-[#333] font-medium leading-relaxed max-w-[300px] mx-auto">
                     {value.desc}
                   </p>
-                </div>
-              ))}
+              </div>
+            ))}
             </div>
           </div>
         </div>
