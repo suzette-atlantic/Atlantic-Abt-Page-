@@ -119,8 +119,8 @@ function App() {
             </div>
 
             <div className="relative rounded-2xl overflow-hidden shadow-2xl group cursor-pointer">
-              <div className="aspect-video bg-black rounded-2xl overflow-hidden border-4 border-white/30 shadow-2xl">
-                <div className="relative w-full h-full bg-black">
+              <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] p-1">
+                <div className="relative w-full h-full bg-black rounded-xl overflow-hidden">
                   {!videoPlaying && (
                     <img 
                       src="/Video-Thumbnail.png" 
