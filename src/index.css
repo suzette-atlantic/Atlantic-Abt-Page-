@@ -164,6 +164,22 @@
     background: white;
     z-index: -1;
   }
+
+  /* Enhanced video play button styles */
+  .video-play-button {
+    cursor: pointer;
+  }
+
+  .video-play-button:active {
+    transform: scale(1.05);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .video-play-button,
+    .video-play-button * {
+      transition: none;
+    }
+  }
 }
 
 @layer utilities {

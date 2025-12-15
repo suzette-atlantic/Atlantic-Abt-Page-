@@ -125,8 +125,12 @@ function App() {
                     <img 
                       src="/Video-Thumbnail.png" 
                       alt="Video Thumbnail" 
-                      className="w-full h-full object-cover"
+                      className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                     />
+                  )}
+                  {/* Enhanced gradient overlay for better contrast */}
+                  {!videoPlaying && (
+                    <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60 z-[5]"></div>
                   )}
                   <video
                     ref={videoRef}
@@ -139,17 +143,27 @@ function App() {
                     Your browser does not support the video tag.
                   </video>
                   {!videoPlaying && (
-                    <div className="absolute inset-0 flex flex-col items-center justify-center z-10 transition-opacity hover:opacity-90">
+                    <div className="absolute inset-0 flex flex-col items-center justify-center z-10">
+                      {/* Enhanced play button with brand-aligned glow and ring */}
                       <button
                         onClick={() => {
                           setVideoPlaying(true);
                           videoRef.current?.play();
                         }}
-                        className="w-20 h-20 rounded-full bg-white flex items-center justify-center mb-4 transform group-hover:scale-110 transition-transform shadow-2xl"
+                        className="video-play-button relative w-24 h-24 md:w-28 md:h-28 rounded-full bg-white flex items-center justify-center mb-5 transform transition-all duration-300 group-hover:scale-115 shadow-2xl focus:outline-none focus:ring-4 focus:ring-[#3AC4DE]/50"
+                        aria-label="Play video"
                       >
-                        <div className="w-0 h-0 border-l-[20px] border-l-[#374A9E] border-t-[12px] border-t-transparent border-b-[12px] border-b-transparent ml-1" />
+                        {/* Brand-aligned glow ring */}
+                        <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#374A9E] to-[#3AC4DE] opacity-0 group-hover:opacity-30 blur-xl transition-opacity duration-300 -z-10"></div>
+                        {/* Brand-aligned outline ring */}
+                        <div className="absolute inset-0 rounded-full border-4 border-transparent group-hover:border-[#3AC4DE]/60 transition-all duration-300 -m-1"></div>
+                        {/* Play icon */}
+                        <div className="w-0 h-0 border-l-[24px] md:border-l-[28px] border-l-[#374A9E] border-t-[14px] md:border-t-[16px] border-t-transparent border-b-[14px] md:border-b-[16px] border-b-transparent ml-1 transition-transform duration-300 group-hover:scale-110" />
                       </button>
-                      <p className="text-white font-semibold text-lg drop-shadow-lg">Watch Course Preview</p>
+                      {/* Enhanced text with better contrast and prominence */}
+                      <p className="text-white font-bold text-lg md:text-xl drop-shadow-2xl bg-black/30 px-4 py-2 rounded-lg backdrop-blur-sm border border-white/20 group-hover:bg-black/40 transition-all duration-300">
+                        Watch Course Preview
+                      </p>
                     </div>
                   )}
                 </div>
